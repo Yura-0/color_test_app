@@ -1,3 +1,3 @@
 # color_test_app
 
-A new Flutter project.
+This is a test application. It generates a random color when you tap on the screen.

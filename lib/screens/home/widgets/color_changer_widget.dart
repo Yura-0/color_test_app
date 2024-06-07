@@ -6,7 +6,6 @@ import '../../../blocs/color_bloc/color_bloc.dart';
 import '../../../blocs/color_bloc/color_event.dart';
 import '../../../blocs/color_bloc/color_state.dart';
 
-
 class ColorChangerWidget extends StatelessWidget {
   const ColorChangerWidget({super.key});
 

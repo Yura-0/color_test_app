@@ -11,7 +11,8 @@ class ColorGenerator implements IColorGenerator {
   @override
   IColorModel generateRandomColor() {
     return ColorModel(
-      alpha: 255, // In this interpretation, the alpha parameter is always equal to 255
+      alpha:
+          255, // In this interpretation, the alpha parameter is always equal to 255
       red: _random.nextInt(256),
       green: _random.nextInt(256),
       blue: _random.nextInt(256),

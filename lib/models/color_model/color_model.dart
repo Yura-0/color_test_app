@@ -12,7 +12,11 @@ class ColorModel implements IColorModel {
   @override
   final int blue;
 
-  ColorModel({required this.alpha, required this.red, required this.green, required this.blue});
+  ColorModel(
+      {required this.alpha,
+      required this.red,
+      required this.green,
+      required this.blue});
 
   @override
   Color toColor() {
